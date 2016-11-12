@@ -217,7 +217,7 @@ var certificate = fs.readFileSync('us.blockchain.ibm.com.cert'); // TODO should 
 var certificate_path = '/certs/peer/cert.pem'; // TODO this should be available in the service credentials
 
 // Search for chaincode under <project_dir>/src/
-process.env.GOPATH = __dirname;
+//process.env.GOPATH = __dirname;
 
 // Create a hfc chain object and deploy our chaincode
 var chain_setup = require('./utils/chain_setup');

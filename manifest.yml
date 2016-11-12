@@ -1,6 +1,6 @@
 ---
 declared-services:
-  cpblockchain:
+  mycpblockchain:
     label: ibm-blockchain-5-prod
     plan: ibm-blockchain-plan-5-prod
 applications:
@@ -11,4 +11,4 @@ applications:
   instances: 1
   memory: 512M
   services: 
-    - cpblockchain
+    - mycpblockchain
